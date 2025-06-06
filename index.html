@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Score Game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="main">
+            <div id="modeButtons">
+                <div class="hding">MODE - </div>
+                <button class="modebtn" data-time="1700">Easy</button>
+                <button class="modebtn active" data-time="1200">Medium</button>
+                <button class="modebtn" data-time="800">Hard</button>
+
+            </div>
+            <div id="container">
+                <div class="incontainer">
+                    <p id="difficultyDisplay"> The Game Mode Medium start</p>
+                    <img id="image2" src="ufo-4995753_1280.png" alt="">
+                </div>
+            </div>
+            <div class="scorebord">
+                <h1>score -</h1>
+                <div class="num">0</div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+        <audio id="click" src="switched-170188.mp3" preload="auto"></audio>
+        <audio id="toggle" src="double-button-166325.mp3" preload="auto"></audio>
+    </body>
+
+</html>
